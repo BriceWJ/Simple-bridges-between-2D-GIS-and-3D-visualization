@@ -1,0 +1,159 @@
+{
+  "LAYERS": [
+    {
+      "geomType": 3,
+      "layerId": "ubcv_building_records_c75759ae_078f_4ac3_9947_6f37def157d7",
+      "name": "ubcv_building_records",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_Label": null,
+        "comboBox_ObjectType": "Extruded",
+        "comboBox_altitudeMode": "vancouver_area_dem__1__ed758753_46cd_418c_85f9_26e6da990809",
+        "fieldExpressionWidget_altitude": "0",
+        "labelHeightWidget": {
+          "comboData": 0,
+          "comboText": "Absolute",
+          "editText": "76",
+          "type": 6
+        },
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "styleWidget0": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "styleWidget1": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "styleWidget2": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "5 *  \"COUNT_FLOORS\" ",
+          "type": 1
+        },
+        "styleWidget3": {
+          "comboData": 0,
+          "comboText": "(No Edge)",
+          "editText": "0",
+          "type": 7
+        },
+        "styleWidget4": {},
+        "styleWidget5": {}
+      },
+      "visible": true
+    },
+    {
+      "geomType": 1,
+      "layerId": "ubcv_trees_525df7a6_b67e_47a5_acc5_5dbce3961baf",
+      "name": "ubcv_trees",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_Label": null,
+        "comboBox_ObjectType": "Sphere",
+        "comboBox_altitudeMode": "vancouver_area_dem__1__ed758753_46cd_418c_85f9_26e6da990809",
+        "fieldExpressionWidget_altitude": "4",
+        "labelHeightWidget": {
+          "comboData": 0,
+          "comboText": "Absolute",
+          "editText": "76",
+          "type": 6
+        },
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "styleWidget0": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "styleWidget1": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "styleWidget2": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "3",
+          "type": 1
+        },
+        "styleWidget3": {},
+        "styleWidget4": {},
+        "styleWidget5": {}
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "vancouver_area_dem__1__ed758753_46cd_418c_85f9_26e6da990809",
+      "name": "vancouver-area-dem (1)",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Shading": true,
+        "checkBox_Sides": true,
+        "checkBox_Surroundings": false,
+        "checkBox_TransparentBackground": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Color": "0x000000",
+        "comboBox_ClipLayer": "ubcv_building_records_c75759ae_078f_4ac3_9947_6f37def157d7",
+        "comboBox_TextureSize": 1024,
+        "horizontalSlider_DEMSize": 2,
+        "layerImageIds": [
+          "UBC_2018_1m_geotiff_UTM10N_e15aa673_c04e_4df2_b5ac_df958a2eb5d2"
+        ],
+        "lineEdit_ImageFile": "",
+        "radioButton_LayerImage": true,
+        "spinBox_Opacity": 100,
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3,
+        "toolButton_EdgeColor": "0x000000",
+        "toolButton_SideColor": "0xccbbaa",
+        "toolButton_WireframeColor": "0x000000"
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "FLAT",
+      "name": "Flat Plane",
+      "properties": {},
+      "visible": false
+    }
+  ],
+  "OPT": {
+    "localMode": true
+  },
+  "OutputFilename": "H:/472\\index.html",
+  "SCENE": {
+    "checkBox_FixAspectRatio": false,
+    "checkBox_Outline": false,
+    "checkBox_autoZShift": false,
+    "colorButton_Color": "0x000000",
+    "comboBox_MaterialType": 0,
+    "lineEdit_BaseSize": "100",
+    "lineEdit_CenterX": "481260.82890429057",
+    "lineEdit_CenterY": "5456469.862773881",
+    "lineEdit_Height": "1872.752806643024",
+    "lineEdit_Rotation": "0",
+    "lineEdit_Width": "1524.1359391181031",
+    "lineEdit_zFactor": "1.5",
+    "lineEdit_zShift": "0"
+  },
+  "Template": "3DViewer(dat-gui).html",
+  "Title": "Simple bridges between 2D GIS and 3D visualization"
+}
